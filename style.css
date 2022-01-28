@@ -22,3 +22,7 @@ p .lead {
 .dropdown-item {
   font-family: "Square Beat DEMO"
 }
+
+.main-navbar {
+  align-items: center;
+}
