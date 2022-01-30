@@ -1,0 +1,28 @@
+/* CSS LINK */
+
+/* unvisited link */
+a:link {
+  color: #FC500F;
+}
+
+/* visited link */
+a:visited {
+  color: #FC500F;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FC210F;
+}
+
+/* selected link */
+a:active {
+  color: #FC500F;
+}
+
+/* HEADER | HOME */
+
+header a {
+  text-decoration: none;
+  text-decoration-style: wavy;
+}
