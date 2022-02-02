@@ -3,6 +3,10 @@
   padding: 5px
 }
 
-#gray-bg {
-  background-color: gray;
+#grad {
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+#header_title-home:hover {
+  padding-left:4px
 }
