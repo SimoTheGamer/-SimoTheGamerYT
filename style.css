@@ -1,27 +1,4 @@
-/* CSS LINK */
-
-/* unvisited link */
-a:link {
-  color: #FC500F;
-}
-
-/* visited link */
-a:visited {
-  color: #FC500F;
-}
-
-/* mouse over link */
-a:hover {
-  color: #FC210F;
-}
-
-/* selected link */
-a:active {
-  color: #FC500F;
-}
-
-/* HEADER | HOME */
-
-header a {
-  text-decoration: none;
+#introduction {
+  font-family: 'Roboto', sans-serif;
+  padding: 5px
 }
