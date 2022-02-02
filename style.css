@@ -3,6 +3,6 @@
   padding: 5px
 }
 
-#gray-bg {
-  background-color: gray;
+#grad {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
