@@ -1,8 +1,12 @@
-#introduction {
-  font-family: 'Roboto', sans-serif;
-  padding: 5px
+.header__logo {
+  display: inline-block;
 }
 
-#grad {
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+.header__menu__item {
+  display: inline-block
+  padding: 15px
+}
+
+.header__menu__item a {
+  text-decoration: none;
 }
