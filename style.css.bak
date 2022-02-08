@@ -2,15 +2,9 @@ body {
 background-color: 
 }
 
-.navbar-height {
-	height: 50px
-}
-
 #blog_button-link:hover {padding-right: 10px;}
 
 #intro-home {font-family: 'Short Stack', cursive;
 text-align: center;
 padding-top: 20px
 }
-
-
