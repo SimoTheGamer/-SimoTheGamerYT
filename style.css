@@ -1,16 +1,12 @@
 body {
-background-color: 
+background-color: white
 }
 
-.navbar-height {
-	height: 50px
+.dropdown-toggle::after {
+    display: none;
 }
 
-#blog_button-link:hover {padding-right: 10px;}
-
-#intro-home {font-family: 'Short Stack', cursive;
-text-align: center;
-padding-top: 20px
+.navbar a {
+	font-family: 'Readex Pro', sans-serif;
+	font-size: 20px;
 }
-
-

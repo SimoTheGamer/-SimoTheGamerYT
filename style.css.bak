@@ -2,9 +2,11 @@ body {
 background-color: 
 }
 
-#blog_button-link:hover {padding-right: 10px;}
+.dropdown-toggle::after {
+    display: none;
+}
 
-#intro-home {font-family: 'Short Stack', cursive;
-text-align: center;
-padding-top: 20px
+.navbar a {
+	font-family: 'Readex Pro', sans-serif;
+	font-size: 20px;
 }
