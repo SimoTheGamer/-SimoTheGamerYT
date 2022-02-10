@@ -19,3 +19,19 @@ header {
 	font-family: 'Readex Pro', sans-serif;
 	font-size: 20px;
 }
+
+#apple:hover {
+	color: chartreuse;
+	width: 20px;
+	height: 20px;
+}
+
+footer {
+	height: 100px;
+	background-color: gray;
+}
+
+#down-arrow:hover {
+	background-image: url("https://img.icons8.com/material/24/767474/expand-arrow--v1.png");
+	
+}
