@@ -1,5 +1,14 @@
 body {
-background-color: white
+    background-color: white;
+}
+
+header {
+	padding-bottom: 20px;
+	
+}
+
+.navbar {
+	display: block;
 }
 
 .dropdown-toggle::after {
