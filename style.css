@@ -15,6 +15,10 @@ header {
     display: none;
 }
 
+.dropdown-item a:active {
+  color: #f5450a
+}
+
 .navbar a {
 	font-family: 'Readex Pro', sans-serif;
 	font-size: 20px;
@@ -33,5 +37,7 @@ footer {
 
 #down-arrow:hover {
 	background-image: url("https://img.icons8.com/material/24/767474/expand-arrow--v1.png");
-	
+
 }
+
+.btn-primary {color:red}
