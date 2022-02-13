@@ -7,16 +7,8 @@ header {
 
 }
 
-.navbar {
-	display: block;
-}
-
 .dropdown-toggle::after {
     display: none;
-}
-
-.dropdown-item a:active {
-  color: #f5450a
 }
 
 .navbar a {
@@ -24,36 +16,15 @@ header {
 	font-size: 20px;
 }
 
-#apple:hover {
-	color: chartreuse;
-	width: 20px;
-	height: 20px;
+.card {
+  transition: transform 500ms ease-in-out;
+}
+
+.card:hover {
+    transform: scale(105%);
 }
 
 footer {
 	height: 100px;
 	background-color: gray;
-}
-
-#down-arrow:hover {
-	background-image: url("https://img.icons8.com/material/24/767474/expand-arrow--v1.png");
-
-}
-
-.bi-arrow-down {
-  padding: 5px;
-  color: red;
-  transition: 2s;
-}
-
-
-.bi-arrow-down::before:hover {
-  padding: 5px;
-  color: red;
-  transition: 2s;
-}
-
-.bi-arrow-down::after:hover {
-  color: yellow;
-  transition: 0.4s;
 }
