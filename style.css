@@ -40,4 +40,20 @@ footer {
 
 }
 
-.btn-primary {color:red}
+.bi-arrow-down {
+  padding: 5px;
+  color: red;
+  transition: 2s;
+}
+
+
+.bi-arrow-down::before:hover {
+  padding: 5px;
+  color: red;
+  transition: 2s;
+}
+
+.bi-arrow-down::after:hover {
+  color: yellow;
+  transition: 0.4s;
+}
