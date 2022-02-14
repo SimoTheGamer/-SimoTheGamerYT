@@ -2,19 +2,14 @@ body {
     background-color: white;
 }
 
-header {
-	padding-bottom: 20px;
-
-}
-
-.dropdown-toggle::after {
-    display: none;
-}
-
 .navbar a {
 	font-family: 'Readex Pro', sans-serif;
 	font-size: 20px;
 }
+
+/* CARD */
+
+/* ANIMAZIONI */
 
 .card {
   transition: transform 500ms ease-in-out;
@@ -24,7 +19,11 @@ header {
     transform: scale(105%);
 }
 
-footer {
-	height: 100px;
-	background-color: gray;
+#intro-home {
+  height: 300px;
+  background-color: red;
+}
+
+#social-home .card {
+
 }
