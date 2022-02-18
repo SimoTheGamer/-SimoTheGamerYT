@@ -19,7 +19,7 @@ body {
     transform: scale(105%);
 }
 
-#big__cover {
+.big__cover {
   background-color: #443e3e;
 }
 
@@ -41,7 +41,8 @@ body {
 @media (max-width: 768px)  {
 
   .big-text-cover h2 {
-    font-size: 50px;
-  }
-
+    font-size: 32px;
+    margin-bottom: 25px;
+    line-height: 40px;
+    padding: 20px;
 }
