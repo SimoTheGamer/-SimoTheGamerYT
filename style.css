@@ -37,3 +37,11 @@ body {
 .big-image-cover {
   padding: 20px;
 }
+
+@media (max-width: 768px)  {
+
+  .big-text-cover h2 {
+    font-size: 50px;
+  }
+
+}
