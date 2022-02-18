@@ -19,11 +19,21 @@ body {
     transform: scale(105%);
 }
 
-#intro-home {
-  height: 300px;
-  background-color: red;
+.big__cover {
+  background-color: #443e3e;
 }
 
-#social-home .card {
+.big-text-cover h2 {
+  font-family: 'Readex Pro', sans-serif;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  line-height: 82px;
+  text-align: center;
+  padding: 20px;
+}
 
+.big-image-cover {
+  padding: 20px;
 }
