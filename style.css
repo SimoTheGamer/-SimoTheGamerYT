@@ -38,6 +38,16 @@ body {
   padding: 20px;
 }
 
+.youtube-section {
+  height: 300px;
+}
+
+footer {
+  background-color: #443e3e;
+  height: 500px;
+  border-top: 10px solid #1C6EA4;
+}
+
 @media (max-width: 768px)  {
 
   .big-text-cover h2 {
@@ -45,4 +55,4 @@ body {
     margin-bottom: 25px;
     line-height: 40px;
     padding: 20px;
-}
+  }
