@@ -9,7 +9,7 @@ body {
 
 /* CARD */
 
-/* ANIMAZIONI */
+/* ANIMAZIONI
 
 .card {
   transition: transform 500ms ease-in-out;
@@ -19,9 +19,10 @@ body {
     transform: scale(105%);
 }
 
+*/
+
 .big__cover {
   background-color: #443e3e;
-  height: 200px;
 }
 
 .big-text-cover h2 {
@@ -35,13 +36,8 @@ body {
   padding: 20px;
 }
 
-.big-image-cover {
-  padding: 20px;
-}
-
 .youtube-section {
   background-color: #c7c7c7;
-  height: 300px;
 }
 
 .youtube-section p {
@@ -57,7 +53,6 @@ body {
 footer {
   background-color: #443e3e;
   height: 500px;
-  border-top: 10px solid #1C6EA4;
 }
 
 @media (max-width: 768px)  {
