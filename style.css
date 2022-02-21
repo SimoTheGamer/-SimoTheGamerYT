@@ -21,6 +21,7 @@ body {
 
 .big__cover {
   background-color: #443e3e;
+  height: 200px;
 }
 
 .big-text-cover h2 {
@@ -39,7 +40,18 @@ body {
 }
 
 .youtube-section {
+  background-color: #c7c7c7;
   height: 300px;
+}
+
+.youtube-section p {
+  font-size: 25px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.youtube-section a {
+  color: #fe0000;
 }
 
 footer {
