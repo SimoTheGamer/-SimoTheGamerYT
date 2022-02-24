@@ -25,24 +25,17 @@ body {
   background-color: #443e3e;
 }
 
-.big-text-cover h2 {
-  font-family: 'Readex Pro', sans-serif;
-  color: white;
-  font-size: 75px;
-  text-transform: uppercase;
-  margin-bottom: 25px;
-  line-height: 82px;
-  text-align: center;
-  padding: 20px;
-}
+/* YOUTUBE */
 
 .youtube-section {
-  background-color: #c7c7c7;
+  background-color: #ff1919;
 }
 
 .youtube-section p {
   font-size: 25px;
-  padding-top: 40px;
+  font-family: 'Readex Pro', sans-serif;
+  color: white;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -50,9 +43,29 @@ body {
   color: #fe0000;
 }
 
+/* TWITCH */
+
+.twitch-section {
+  height: 300px;
+  background-color: rgb(138, 13, 255);
+}
+
+/* DISCORD */
+
+.discord-section {
+  height: 300px;
+  background-color: rgb(86, 13, 255);
+
+}
+
 footer {
   background-color: #443e3e;
   height: 500px;
+}
+
+.twitch-section {
+  height: 300px;
+  background-color: ;
 }
 
 @media (max-width: 768px)  {
