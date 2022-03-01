@@ -1,10 +1,14 @@
 body {
-    background-color: white;
+    background-color: purple;
 }
 
 .navbar a {
 	font-family: 'Readex Pro', sans-serif;
 	font-size: 20px;
+}
+
+.navbar {
+  background-color: trasparent : !important;
 }
 
 /* CARD */
