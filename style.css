@@ -1,10 +1,14 @@
 body {
-    background-color: white;
+    background-color: purple;
 }
 
 .navbar a {
 	font-family: 'Readex Pro', sans-serif;
 	font-size: 20px;
+}
+
+.navbar {
+  background-color: trasparent : !important;
 }
 
 /* CARD */
@@ -26,34 +30,43 @@ body {
   height: 300px;
 }
 
-.big__cover h2 {
-  font-family: 'Readex Pro', sans-serif;
-  color: white;
-  font-size: 75px;
-  text-transform: uppercase;
-  margin-bottom: 25px;
-  line-height: 82px;
-  text-align: center;
-  padding: 20px;
-}
+/* YOUTUBE */
 
 .youtube-section {
-  background-color: #c7c7c7;
+  background-color: #fe0000;
 }
 
 .youtube-section p {
   font-size: 25px;
-  padding-top: 40px;
+  font-family: 'Readex Pro', sans-serif;
+  padding-top: 20px;
   text-align: center;
+  text-transform: uppercase;
+  color: white;
 }
 
-.youtube-section a {
-  color: #fe0000;
+/* TWITCH */
+
+.twitch-section {
+  background-color: rgb(138, 13, 255);
+}
+
+/* DISCORD */
+
+.discord-section {
+  height: 300px;
+  background-color: rgb(86, 13, 255);
+
 }
 
 footer {
   background-color: #443e3e;
   height: 500px;
+}
+
+.twitch-section {
+  height: 300px;
+  background-color: ;
 }
 
 @media (max-width: 768px)  {
