@@ -1,5 +1,5 @@
 body {
-    background-color: purple;
+    background-color: white;
 }
 
 /* NAVBAR */
@@ -11,6 +11,26 @@ body {
 
 .navbar {
   background-color: trasparent : !important;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #ddd;
+  border-color: #ddd;
+  transition: background-color .4s linear, color .4s linear
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color:  #ff3300;
+  border-color:  #ff3300;
+}
+
+.btn-primary:focus {
+  color: white;
+  background-color:  #ff3300;
+  border-color:  #ff3300;
+  border-radius: 0px;
 }
 
 /* CARD */
