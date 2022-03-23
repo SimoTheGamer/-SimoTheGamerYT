@@ -13,6 +13,21 @@ body {
   background-color: trasparent : !important;
 }
 
+/*BIG-COVER*/
+
+.big__cover {
+  background-color: #d7d7d7;
+  height: 500px;
+}
+
+.big__cover .big__cover-title {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* THEMING */
+
+/* BUTTONS */
+
 .btn-primary {
   color: black;
   background-color: #ddd;
@@ -30,7 +45,7 @@ body {
   color: white;
   background-color:  #ff3300;
   border-color:  #ff3300;
-  border-radius: 0px;
+  box-shadow: black;
 }
 
 /* CARD */
@@ -76,21 +91,11 @@ body {
 
 }
 
+/* FOOTER */
+
 footer {
   background-color: #443e3e;
   height: 500px;
 }
 
-.twitch-section {
-  height: 300px;
-  background-color: ;
-}
-
-@media (max-width: 768px)  {
-
-  .big-text-cover h2 {
-    font-size: 40px;
-    margin-bottom: 25px;
-    line-height: 40px;
-    padding: 20px;
-  }
+/*@media (max-width: 768px)*/
