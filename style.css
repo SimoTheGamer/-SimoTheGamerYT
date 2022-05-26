@@ -1,6 +1,6 @@
-#yt-section h2{
+#yt-section h4{
     text-transform: uppercase;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 #yt-section a{
@@ -31,4 +31,19 @@ a{
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #bf4702;
     --bs-btn-disabled-border-color: #bf4702;
+}
+
+#ds-selection{
+  background-color: #a9a9a9;
+}
+
+
+footer {
+  height: 400px;
+}
+
+#footer-title{
+  text-align: left;
+  color: red;
+  text-transform: uppercase;
 }
