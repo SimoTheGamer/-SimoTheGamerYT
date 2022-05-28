@@ -11,10 +11,6 @@
     color: #7289DA;
 }
 
-a{
-  text-decoration: none;
-  cursor: help;
-}
 
 .btn-primary {
     --bs-btn-color: #fff;
@@ -47,3 +43,15 @@ footer {
   color: red;
   text-transform: uppercase;
 }
+
+@keyframes bounce {
+  0%{transform:scale(1)}50%{transform:scale(1.1)}100%{transform:scale(1)}
+}
+
+.yt-brand img{
+  animation: bounce 4s infinite;
+}
+
+
+
+
