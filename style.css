@@ -1,3 +1,7 @@
+.nav-link{
+  font-family: 'Roboto', sans-serif;
+}
+
 #yt-section h4{
     text-transform: uppercase;
     line-height: 40px;
@@ -35,7 +39,7 @@
 
 
 footer {
-  height: 400px;
+  height: 2000px;
 }
 
 #footer-title{
@@ -44,11 +48,13 @@ footer {
   text-transform: uppercase;
 }
 
+
+
 @keyframes bounce {
   0%{transform:scale(1)}50%{transform:scale(1.1)}100%{transform:scale(1)}
 }
 
-.yt-brand img{
+.a-bounce{
   animation: bounce 4s infinite;
 }
 
