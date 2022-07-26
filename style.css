@@ -7,6 +7,11 @@ a{
   font-family: 'Roboto', sans-serif;
 }
 
+#home-selection{
+  height: 200px;
+  line-height: 40px;
+}
+
 #yt-section h4{
     text-transform: uppercase;
     line-height: 40px;
@@ -64,6 +69,18 @@ a{
 
 .a-bounce{
   animation: bounce 3s infinite;
+}
+
+#home-grafiche{
+  background-image: url("https://i.imgur.com/ke4mCrc.png");
+}
+
+#listino-grafiche{
+  background: rgb(33,20,250);
+background: -moz-linear-gradient(180deg, rgba(33,20,250,0) 0%, rgba(121,9,111,1) 21%, rgba(218,0,255,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(33,20,250,0) 0%, rgba(121,9,111,1) 21%, rgba(218,0,255,1) 100%);
+background: linear-gradient(180deg, rgba(33,20,250,0) 0%, rgba(121,9,111,1) 21%, rgba(218,0,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2114fa",endColorstr="#da00ff",GradientType=1);
 }
 
 
