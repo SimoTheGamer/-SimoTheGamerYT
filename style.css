@@ -75,7 +75,7 @@ a{
   background-image: url("https://i.imgur.com/ke4mCrc.png");
 }
 
-#listino-grafiche{
+.listino-grafiche{
   background: rgb(33,20,250);
   background: -moz-linear-gradient(180deg, rgba(33,20,250,0) 0%, rgba(249,93,21,1) 21%, rgba(218,0,255,1) 100%);
   background: -webkit-linear-gradient(180deg, rgba(33,20,250,0) 0%, rgba(249,93,21,1) 21%, rgba(218,0,255,1) 100%);
