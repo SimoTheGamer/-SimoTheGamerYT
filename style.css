@@ -7,24 +7,6 @@ a{
   font-family: 'Roboto', sans-serif;
 }
 
-#home-selection{
-  height: 200px;
-  line-height: 40px;
-}
-
-#yt-section h4{
-    text-transform: uppercase;
-    line-height: 40px;
-}
-
-#yt-section a{
-    color: #FF0000;
-}
-
-#ds-section a{
-    color: #7289DA;
-}
-
 
 .btn-primary {
     --bs-btn-color: #fff;
@@ -86,6 +68,13 @@ a{
   
 }
 
+#home-youtube{
+  background-color: #FF0000;
+}
+
+.carousel-item{
+  height: 500px;
+}
 
 
 
