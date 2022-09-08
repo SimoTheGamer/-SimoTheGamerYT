@@ -20,9 +20,12 @@
     <!-- Google Fonts -->
 
     <!--ROBOTO-->
+    <!--BEBAS NEUE-->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-      </style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
 
 <!-- Google Icons -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -41,7 +44,7 @@ HEADER / inizio pagina / introduzione
 
 <!--NAVBAR-->
 
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg bg-light bd-navbar sticky-top">
   <div class="container">
     <a class="navbar-brand" href="#"><img src="favicon-circle.ico" width="50" height="50" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,73 +53,73 @@ HEADER / inizio pagina / introduzione
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="#section1">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="padding-left: 40px;" href="youtube/youtube-home.html">YouTube <i class="bi bi-youtube" style="color:#ff0000;"></i></a>
+          <a class="nav-link" style="padding-left: 40px;" href="#section2">YouTube <i class="bi bi-youtube" style="color:#ff0000;"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" style="padding-left: 40px;" href="#">Discord <i class="bi bi-discord" style="color:#7289d9"></i></a>
+          <a class="nav-link disabled" style="padding-left: 40px;" href="#section3">Discord <i class="bi bi-discord" style="color:#7289d9"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" style="padding-left: 40px;" href="#">Twitch <i class="bi bi-twitch" style="color: #6441a4;"></i></a>
+          <a class="nav-link disabled" style="padding-left: 40px;" href="#section4">Twitch <i class="bi bi-twitch" style="color: #6441a4;"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" style="padding-left: 40px;" href="#">Server MC <i class="bi bi-minecart-loaded" style="color: #25971a;"></i></a>
+          <a class="nav-link disabled" style="padding-left: 40px;" href="#section5">Server MC <i class="bi bi-minecart-loaded" style="color: #25971a;"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="padding-left: 40px;" href="grafiche/home.html">Grafiche <i class="bi bi-brush" style="color: #eecd12;"></i></a>
+          <a class="nav-link" style="padding-left: 40px;" href="#section6">Grafiche <i class="bi bi-brush" style="color: #eecd12;"></i></a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-
-<section class="bg-dark text-white header" id="header-home">
-<div class="container-fluid text-center">
-  
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="2000">
-        <img src="images/home_canale-yt.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>YOUTUBER</h5>
-          <p>SimoTheGamer porta contenuti di gaming e tutorial.</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="..." class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="..." class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+<div id="section1" class="sections d-flex justify-content-center align-items-center text-center">
+  <div>
+    <h1><div class="testo-colorato">Benvenuto/a nel sito di SimoTheGamer</div></h1>
+    <p>YouTuber, Streamer in una sola parola content creator!</p>
   </div>
-
 </div>
-</section>
+
+<div id="section2" class="sections d-flex justify-content-center align-items-center text-center">
+  <div>
+    <h1><div class="testo-colorato">YOUTUBE</div></h1>
+    <p>Ultimo Video</p>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLVOUe-HXIjmWULVD_FG4V_o9CUnXX4gH5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div style="padding-top: 40px;"><button type="button" class="btn btn-danger btn-lg">CANALE YOUTUBE</button></div>
+  </div>
+</div>
+
+<div id="section3" class="sections d-flex justify-content-center align-items-center text-center">
+  <div class="container">
+    <h1>IL NOSTRO SERVER DISCORD</h1>
+    <div class="container" style="width: 540px;">
+      <div style="padding-top: 40px;"><button type="button" class="btn btn-success btn-lg">ENTRA ORA</button></div>
+     </div>
+  </div>
+</div>
+
+<div id="section4" class="sections d-flex justify-content-center align-items-center text-center">
+  <div class="container">
+    <h1>LE NOSTRE GRAFICHE</h1>
+    <div class="container" style="width: 540px;">
+      <p>I Grafici all' interno del nostro server lavorano tutti i giorni a nuovi BANNER, LOGHI e GIF.</p>
+      <img src="img/grafica-esempio.gif" id="grafica-esempio">
+      <div style="padding-top: 40px;"><button type="button" class="btn btn-success btn-lg">SCOPRI DI PIU'</button></div>
+     </div>
+  </div>
+</div>
+
+<div id="section5" class="sections d-flex justify-content-center align-items-center text-center">
+  <div class="container-fluid">
+    <h1>Benvenuto nel mio sito</h1>
+    <p>Questo è un paragrafo bellissimo!</p>
+  </div>
+</div>
+
 
 <!-- Footer-->
 <footer class="py-5 bg-dark">
