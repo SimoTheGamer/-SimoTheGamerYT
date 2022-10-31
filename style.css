@@ -1,6 +1,6 @@
 a{
   text-decoration: none;
-  color: rgb(255, 102, 0);
+  color: rgb(255, 72, 0);
 }
 
 .nav-link{
@@ -91,13 +91,12 @@ h1{font-family: 'Bebas Neue', cursive; font-size: 60px; margin: 0;}
 
 #section2{ background-color: #ffffff;}
 
-#section3{ background-color: #ffffff;}
+#section3{ background-color: #1eb1f5;}
 
 #section4{ background-color: #ffffff;}
 
 #section5{ background-color: #ffffff;}
 
-<<<<<<< HEAD
 /*------------------------------------*/
 
 #section1-ds{ background-color: #5662f6;}
@@ -109,17 +108,15 @@ h1{font-family: 'Bebas Neue', cursive; font-size: 60px; margin: 0;}
 #section4-ds{ background-color: #ffffff;}
 
 #section5-ds{ background-color: #ffffff;}
-=======
-#section1{ background-color: #E4DCCF;}
 
-#section2{ background-color: #576F72;}
+.box-shadow-spread
+{
+-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 7px 11px 0px -3px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 7px 11px 0px -3px rgba(0,0,0,0);
+}
 
-#section3{ background-color: #E4DCCF;}
-
-#section4{ background-color: #576F72;}
-
-#section5{ background-color: #E4DCCF;}
->>>>>>> 22b6cf9e7845cbffb4fcb0f304916edbc52f07e4
+.text-shadow
+{}
 
 #menu{ width: 100%; height: 50px; background-color: #E26D5C; }
 #menu ul{ margin: 0px; }
