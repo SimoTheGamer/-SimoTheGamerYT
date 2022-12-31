@@ -7,13 +7,13 @@ a{
   font-family: 'Roboto', sans-serif;
 }
 
-
+/*
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #eb5c09;
     --bs-btn-border-color: #fc5e03;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #d65306; /* COLORE BACKGROUND HOVER */
+    --bs-btn-hover-bg: #d65306; 
     --bs-btn-hover-border-color: #eb5c09;
     --bs-btn-focus-shadow-rgb: 255, 0, 0;
     --bs-btn-active-color: #fff;
@@ -24,6 +24,8 @@ a{
     --bs-btn-disabled-bg: #bf4702;
     --bs-btn-disabled-border-color: #bf4702;
 }
+
+*/
 
 @keyframes bounce {
   0%{transform:scale(1)}50%{transform:scale(1.1)}100%{transform:scale(1)}
@@ -41,6 +43,16 @@ a{
 
 .a-bounce{
   animation: bounce 3s infinite;
+}
+
+.img-expand{
+  -webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.img-expand:hover{
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 #home-grafiche{
@@ -115,9 +127,6 @@ h1{font-family: 'Bebas Neue', cursive; font-size: 60px; margin: 0;}
 box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 7px 11px 0px -3px rgba(0,0,0,0);
 }
 
-.text-shadow
-{}
-
 #menu{ width: 100%; height: 50px; background-color: #E26D5C; }
 #menu ul{ margin: 0px; }
 #menu li{ display: inline; margin: 0px 50px; font-family: 'Bebas Neue', cursive; font-size: 21px; }
@@ -147,28 +156,6 @@ p{
   line-height: 1.5;
 }
 
-
-#button1{
-  background-color: white;
-  padding: 15px 40px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 17px;
-  border-radius: 5px;
-  cursor: pointer;
-  user-select: none;
-  box-shadow: 0 10px 0 0 palevioletred;
-  transition: all 0.1s ease-in-out;
-}
-
-#button1:active{
-  transform: translateY(10px);
-  box-shadow: 0 0 0 0 palevioletred;
-}
-
 .testo-colorato {
   text-decoration: none;
   background-image: linear-gradient(162deg, rgb(255, 81, 0) 0%, rgb(224, 204, 21) 100%, rgba(0,212,255,1) 100%);
@@ -183,10 +170,8 @@ p{
   color: inherit
 }
 
-#grafica-esempio{
-  width: 100px;
-  height: 117px;
-}
+
+
 
 
 
