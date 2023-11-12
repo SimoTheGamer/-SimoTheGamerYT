@@ -1,0 +1,52 @@
+<svg id="SVG" xmlns="http://www.w3.org/2000/svg" width="300px" height="300px" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #747474;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #389bff;
+      }
+
+      .cls-4 {
+        fill: #ffcf0d;
+      }
+
+      .cls-5 {
+        fill: #f92847;
+      }
+
+      .cls-6 {
+        fill: #7ac601;
+      }
+    </style>
+  </defs>
+  <g id="CONTROLLER">
+    <g id="TRIGGER">
+      <path id="TRIGGER_SX_" data-name="TRIGGER (SX)" class="cls-1" d="M580,499h20a80,80,0,0,1,80,80v59.229A20.771,20.771,0,0,1,659.229,659H520.771A20.771,20.771,0,0,1,500,638.229V579a80,80,0,0,1,80-80Z"/>
+      <path id="TRIGGER_DX_" data-name="TRIGGER (DX)" class="cls-1" d="M1399,499h20a80,80,0,0,1,80,80v59.229A20.771,20.771,0,0,1,1478.229,659H1339.771A20.771,20.771,0,0,1,1319,638.229V579a80,80,0,0,1,80-80Z"/>
+    </g>
+    <g id="IMPUGNATURA">
+      <rect id="CENTRO_CONTROLLER" data-name="CENTRO CONTROLLER" class="cls-2" x="500" y="600" width="999" height="608" rx="20" ry="20"/>
+      <g id="CERHI">
+        <circle id="CERCHIO_SX_" data-name="CERCHIO (SX)" class="cls-2" cx="500" cy="1000" r="400"/>
+        <circle id="CERCHIO_DX_" data-name="CERCHIO (DX)" class="cls-2" cx="1500" cy="1000" r="400"/>
+      </g>
+    </g>
+    <g id="TASTI_BOTTONI_" data-name="TASTI (BOTTONI)">
+      <circle id="TASTO_AZZURRO" data-name="TASTO AZZURRO" class="cls-3" cx="1380" cy="1000" r="60"/>
+      <circle id="TASTO_GIALLO" data-name="TASTO GIALLO" class="cls-4" cx="1500" cy="880" r="60"/>
+      <circle id="TASTO_ROSSO" data-name="TASTO ROSSO" class="cls-5" cx="1620" cy="1000" r="60"/>
+      <circle id="TASTO_VERDE" data-name="TASTO VERDE" class="cls-6" cx="1500" cy="1120" r="60"/>
+    </g>
+    <g id="CROCE">
+      <rect id="CROCE_VERTIC" data-name="CROCE VERTIC" class="cls-1" x="475" y="820" width="50" height="360" rx="10" ry="10"/>
+      <rect id="CROCE_ORIZ" data-name="CROCE ORIZ" class="cls-1" x="320" y="975" width="360" height="50" rx="10" ry="10"/>
+    </g>
+  </g>
+</svg>
