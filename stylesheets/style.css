@@ -5,12 +5,12 @@
 
 a{
   text-decoration: none;
-  color: rgb(255, 72, 0);
+  /*color: rgb(255, 72, 0);*/
 }
 
 a:hover{
   text-decoration: underline;
-  color: rgb(255, 72, 0);
+  /*color: rgb(255, 72, 0);*/
 }
 
 .nav-link{
@@ -94,6 +94,10 @@ header.sections{
 
 div#discord-section {
   background-image: url('./images/server-discord-blur.png');
+}
+
+div#twitch-section {
+  background-color: #18181b;
 }
 
 .sections:nth-child(even) {
