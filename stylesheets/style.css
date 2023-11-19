@@ -93,7 +93,7 @@ header.sections{
 }
 
 div#discord-section {
-  background-image: url('/images/discord/server-discord-blur.png');
+  background-image: url('../images/discord/server-discord-blur.png');
 }
 
 div#twitch-section {
