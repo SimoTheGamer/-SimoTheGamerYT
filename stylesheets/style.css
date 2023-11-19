@@ -84,7 +84,8 @@ html{
 
 header.sections{
   width: 100%;
-  height: 350px;
+  height: 100vh;
+  /*height: 350px;*/
 }
 
 .sections{
@@ -94,6 +95,10 @@ header.sections{
 
 div#discord-section {
   background-image: url('../images/discord/server-discord-blur.png');
+}
+
+div#youtube-section {
+  background-image: url('../images/youtube/sfondo-yt-blur.png');
 }
 
 div#twitch-section {
