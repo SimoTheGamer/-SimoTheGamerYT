@@ -4,11 +4,26 @@ function ytr(nome) {
     window.open(link);
 }
 
+anime({
+    targets: '#logo-controller',
+    translateY: -20,
+    duration: 2000,
+    loop: true,
+    direction: 'alternate',
+});
 
+anime({
+    targets: '#carouselExampleSlidesOnly',
+    translateY: [0, 20],
+    opacity: [0 , 1],
+    duration: 1500,
+    delay: 1000,
+});
 
-//let logoController = gsap.timeline({ repeat: -1, yoyo: true, ease: Power2.easeIn });
-
-
-//ogoController.fromTo('#logo-controller', { y: 10, duration: 2 }, { y: -20, duration: 1 })
-
-//ytr("aternos")
+anime({
+    targets: '#stg-discord-logo',
+    translateX: [50, 0],
+    opacity: [0 , 1],
+    duration: 1500,
+    delay: 1000,
+});
